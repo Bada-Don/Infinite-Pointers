@@ -1,7 +1,7 @@
 nav {
     margin: auto;
     margin-top: 2rem;
-    width: 50%;
+    width: 65%;
     padding: 1rem;
     border-radius: 1rem;
     display: flex;
@@ -24,13 +24,19 @@ nav ul {
     cursor: pointer;
 }
 
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
 button {
+    font-size: 0.8rem;
     border-color: #696969;
     border-width: 1px;
     margin-left: 1rem;
     padding: 1rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border-radius: 2rem;
 }
 
@@ -59,4 +65,13 @@ button {
 .active{
     background-color: #111111;
     color: #6887b4;
+}
+
+div{
+    margin: auto;
+}
+
+ul li{
+    font-size: 0.9rem;
+    font-weight: bold;
 }

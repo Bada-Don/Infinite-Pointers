@@ -1,0 +1,16 @@
+.demoVideo-container {
+    width: 60%; 
+    margin: 0 auto; 
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.demo-video {
+    border-radius: 2rem;
+    border-width: 1rem;
+    border-color: #6988b5;
+    box-shadow: 1rem 1rem 7rem #6988b5;
+    width: 100%;
+    height: auto;
+    display: block; 
+}

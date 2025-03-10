@@ -1,0 +1,144 @@
+.spText {
+    color: #6988b5;
+}
+
+.heroSection {
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+p {
+    color: gray;
+    line-height: 1.5rem;
+}
+
+section {
+
+    width: 50%;
+}
+
+.right button {
+
+    background-color: #1d1d1d;
+}
+
+button {
+    padding: 0.7rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+.mainBtn {
+    background: linear-gradient(90deg, #6887b4, #1a1a1a, #6887b4);
+}
+
+.mainBtn:hover {
+    background: white;
+    color: #000000;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightF {
+    background-image: url('./assets/metalicPlate.png');
+    background-size: cover;
+    /* Ensures the image covers the whole div */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.767);
+    padding: 1rem;
+}
+
+.rightF li {
+    list-style: none;
+    padding: 0.5rem;
+    /* Added padding inside each item */
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    /* Light transparent background */
+    transition: transform 0.2s ease-in-out;
+}
+
+.rightF li:hover {
+    transform: scale(1.02);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.rightF h1 {
+    color: #7093c3;
+    font-size: 1rem;
+}
+
+.rightF p {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.rightF ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* Increased spacing for better readability */
+    padding: 0;
+    margin: 0;
+}
+
+/* Two-Column Layout for Behavioral Feedback */
+.twoColumn {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    /* Space between columns */
+}
+
+.column {
+    flex: 1;
+}
+
+.rightBtn {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.left {
+    /* background: #ee0505; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.left button {
+    width: 15rem;
+    margin: 0;
+}
