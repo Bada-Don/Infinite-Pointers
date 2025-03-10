@@ -1,7 +1,3 @@
-.spText {
-    color: #6988b5;
-}
-
 .heroSection {
     margin: auto;
     padding-top: 5rem;
@@ -44,7 +40,7 @@ button {
 }
 
 .mainBtn {
-    background: linear-gradient(90deg, #6887b4, #1a1a1a, #6887b4);
+    background: linear-gradient(90deg, #e43041, #1a1a1a, #e43041);
 }
 
 .mainBtn:hover {
@@ -88,7 +84,7 @@ button {
 }
 
 .rightF h1 {
-    color: #7093c3;
+    color: #e43041;
     font-size: 1rem;
 }
 

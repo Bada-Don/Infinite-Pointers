@@ -1,0 +1,33 @@
+.benifits{
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.benifits p{
+    color: white;
+}
+
+.allCircles{
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+.circle{
+    background: linear-gradient(90deg, #111419, #251313, #111419);
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}

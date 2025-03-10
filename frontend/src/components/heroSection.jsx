@@ -10,7 +10,7 @@ function HeroSection() {
             <section className='left'>
                 <div>
                     <h1>
-                        <span className='spText'>AI-powered immersive</span> <br />
+                        <span className='purple'>AI-powered immersive</span> <br />
                         Interview to prepare <br />
                         For your dream job
                     </h1>

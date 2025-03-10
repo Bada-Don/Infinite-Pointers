@@ -41,7 +41,7 @@ button {
 }
 
 .mainBtn {
-    background: linear-gradient(90deg, #6887b4, #1a1a1a, #6887b4);
+    background: linear-gradient(90deg, #e43041, #1a1a1a, #e43041);
 }
 .mainBtn:hover {
     background: white;
@@ -59,12 +59,12 @@ button {
 
 .forBtn:hover{
 
-    color: #6887b4;
+    color: #e43041;
 }
 
 .active{
     background-color: #111111;
-    color: #6887b4;
+    color: #e43041;
 }
 
 div{

@@ -1,0 +1,99 @@
+.featuresSection {
+    background-color: #0d1117; /* Dark background from image */
+    color: #fff; /* White text color */
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.featuresTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.importantText {
+    color: #e43041; /* Example accent color from image - adjust as needed */
+}
+
+.featuresNav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.featureTab {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    padding-bottom: 0.5rem; /* Space for underline */
+    cursor: pointer;
+    position: relative; /* For active tab underline */
+    transition: color 0.3s ease;
+}
+
+.featureTab:hover {
+    color: #e43041; /* Hover color */
+}
+
+.featureTab.active {
+    color: #e43041; /* Active tab color */
+}
+
+.featureTab.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px; /* Underline thickness */
+    background-color: #e43041; /* Underline color */
+}
+
+.contentArea {
+    padding: 2rem;
+    border-top: 1px solid #21262d; /* Separator line */
+    margin: 0 auto;
+    max-width: 900px; /* Adjust max width as needed */
+}
+
+.featureContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically align content */
+}
+
+.leftContent {
+    text-align: left;
+}
+
+.rightContent {
+    text-align: left;
+    max-width: 45%; /* Adjust as needed to control quote width */
+}
+
+.percentage {
+    font-size: 4rem;
+    font-weight: bold;
+    display: block; /* Ensure it takes full width for layout */
+    line-height: 1; /* Adjust line height for better vertical spacing */
+}
+
+.contentText {
+    color: #ccc; /* Slightly lighter text */
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.quote {
+    font-style: italic;
+    color: #ccc;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.placeholder-content {
+    color: #777; /* Gray placeholder text */
+    font-style: italic;
+}
